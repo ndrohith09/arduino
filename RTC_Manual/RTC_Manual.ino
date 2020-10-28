@@ -1,5 +1,5 @@
 void setup() {
-  Serial.begin(9600);
+  Serial.begin(115200);
   rtc.begin();
   rtc.setDOW(WEDNESDAY);
   rtc.setTime(12, 0, 0);
